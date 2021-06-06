@@ -1,0 +1,137 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-block: 5.5em;
+  margin-inline: 2em;
+  border-radius: 10px;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.col-1, .col-2, .col-3 {
+  padding: 3em;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 2em;
+}
+
+button {
+  border-radius: 50px;
+  border: 1px white solid;
+  padding-block: 13px;
+  padding-inline: 33px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+button:hover {
+  background-color: inherit;
+  color: #f2f2f2;
+}
+
+.sedans {
+  color: #e38826;
+}
+
+.suvs {
+  color: #006970;
+}
+
+.luxury {
+  color: #004241;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  padding-block: 0.7em;
+  color: #f2f2f2;
+  font-size: 2.5em;
+}
+
+.col-1 {
+  background-color: #e38826;
+}
+
+.col-2 {
+  background-color: #006970;
+}
+
+.col-3 {
+  background-color: #004241;
+}
+
+@media (min-width: 860px) {
+  .container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-block: 0em;
+    margin-inline: 0em;
+  }
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    max-width: 1240px;
+  }
+  p {
+    font-size: 1.56em;
+    line-height: 1.9em;
+    margin-bottom: 5em;
+  }
+  h1 {
+    font-size: 3.1em;
+  }
+  button {
+    border-radius: 50px;
+    border: 1px white solid;
+    padding-block: 13px;
+    padding-inline: 33px;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 198px;
+    height: 68px;
+    font-size: 1.1em;
+  }
+}
+/*# sourceMappingURL=style.css.map */

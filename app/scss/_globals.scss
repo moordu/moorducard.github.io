@@ -1,0 +1,15 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    background-color: $background;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
